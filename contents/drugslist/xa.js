@@ -1,0 +1,1 @@
+drugsList_xa={'Xalkori': 'crizotinib,xalkori', 'Xalatan': 'latanoprost-ophthalmic,xalatan', 'Xarelto': 'rivaroxaban,xarelto', 'Xanax': 'alprazolam,xanax'};

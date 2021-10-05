@@ -1,0 +1,1 @@
+drugsList_xe={'Xedec': 'guaifenesin-phenylephrine,xedec', 'Xeomin': 'incobotulinumtoxina,xeomin', 'Xenaderm': 'balsam-peru-castor-oil-trypsin-topical,xenaderm', 'Xeloda': 'capecitabine,xeloda', 'Xenical': 'orlistat,xenical', 'Xerese': 'acyclovir-hydrocortisone-topical,xerese', 'Xenazine': 'tetrabenazine,xenazine'};

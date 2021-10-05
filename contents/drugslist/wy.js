@@ -1,0 +1,1 @@
+drugsList_wy={'Wycillin': 'procaine-penicillin,wycillin', 'Wydase': 'hyaluronidase,wydase', 'Wytensin': 'guanabenz,wytensin'};

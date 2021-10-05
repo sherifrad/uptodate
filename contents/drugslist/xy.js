@@ -1,0 +1,1 @@
+drugsList_xy={'Xylocaine': 'lidocaine', 'Xyrem': 'sodium-oxybate,xyrem', 'xylometazoline': 'xylometazoline-nasal', 'Xyralid': 'hydrocortisone-lidocaine-topical,xyralid', 'Xyzal': 'levocetirizine,xyzal'};

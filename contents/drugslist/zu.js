@@ -1,0 +1,1 @@
+drugsList_zu={'Zutripro': 'chlorpheniramine-hydrocodone-pseudoephedrine,zutripro', 'Zuplenz': 'ondansetron,zuplenz'};

@@ -1,0 +1,1 @@
+drugsList_xo={'Xopenex': 'levalbuterol,xopenex', 'Xolox': 'acetaminophen-oxycodone,xolox', 'Xodol': 'acetaminophen-hydrocodone,xodol', 'Xolair': 'omalizumab,xolair'};

@@ -1,0 +1,1 @@
+drugsList_yo={'Yohimar': 'yohimbine,yohimar', 'Yocon': 'yohimbine,yocon', 'Yohimbe': 'yohimbine,yohimbe', 'yohimbine': 'yohimbine', 'Yodoxin': 'iodoquinol,yodoxin', 'Yohimex': 'yohimbine,yohimex'};

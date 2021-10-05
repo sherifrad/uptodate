@@ -1,0 +1,1 @@
+drugsList_we={'WelChol': 'colesevelam,welchol', 'Westrim': 'phenylpropanolamine,westrim', 'Westcort': 'hydrocortisone-topical,westcort', 'Westhroid': 'thyroid-desiccated,westhroid', 'Wellcovorin': 'leucovorin,wellcovorin', 'Wellbutrin': 'bupropion,wellbutrin'};
