@@ -1,0 +1,1 @@
+var index={"s6k_gene": [61010, "S6K_gene", 2]};
