@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Sepsis</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Patients may present with rigors, but septic patients tend to have a fever as opposed to a lowered temperature.",
+"<br><strong>Test:</strong> Blood and urine cultures and tracheal aspirate with Gram stain analysis show a pathogen. FBC may show elevated WBC as well.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Hypothyroidism</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Cases that mimic hypothermia most commonly result from long-standing hypothyroidism. Typical symptoms include cold intolerance, fatigue, weight gain, constipation, a deep voice, coarse hair, and dry skin.Severe hypothyroidism may result in myxoedema coma. Myxoedema refers to non-pitting oedema of skin and soft tissue. An associated change in level of consciousness (not necessarily coma) is present.Concurrent infection or noncompliance with thyroid replacement medications may precipitate myxoedema coma in a patient with hypothyroidism.",
+"<br><strong>Test:</strong> Thyroid function tests show a high TSH and low free T4/T3.</p>",
+"</dd>",
+"</dl>"].join("\n");

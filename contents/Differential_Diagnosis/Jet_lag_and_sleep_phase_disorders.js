@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Travel-related fatigue</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Usually symptoms are of shorter duration than jet lag. [11]",
+"<br><strong>Test:</strong> Diagnosis is clinical.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Psychophysiological insomnia</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> To be considered if symptoms persist beyond the episode of jet lag.",
+"<br><strong>Test:</strong> Diagnosis is achieved using actigraphy combined with a sleep diary.</p>",
+"</dd>",
+"</dl>"].join("\n");

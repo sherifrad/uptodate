@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Interstitial lung disease</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Patients with interstitial lung disease often complain of shortness of breath, especially exertional dyspnoea. In addition, they may complain of a non-productive cough. Patients can present with a rapid, shallow breathing pattern, inspiratory crackles on examination of the lungs, and clubbing of the digits.",
+"<br><strong>Test:</strong> While pulse oximetry may reveal an SaO2 &lt;90%, arterial blood gas analysis demonstrates hypocapnia rather than hypercapnia associated with hypoxaemia.CXR demonstrates interstitial changes and fibrosis, which can be confirmed with a CT scan.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Obstructive sleep apnoea (OSA) without associated alveolar hypoventilation</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Patients with OSA without associated alveolar hypoventilation present with symptoms of excessive daytime sleepiness and loud snoring. On examination, obesity without signs of cor pulmonale such as lower-extremity oedema is common, although one third of patients have a BMI &lt;30 kg/m^2.",
+"<br><strong>Test:</strong> Arterial blood gas analysis demonstrates a normal PaCO2, and pulse oximetry while awake reveals a SaO2 &gt;90%.Overnight polysomnogram shows obstructive apnoeas and hypopnoeas with nocturnal oxygen desaturation purely associated with the sleep-disordered breathing events.</p>",
+"</dd>",
+"</dl>"].join("\n");
