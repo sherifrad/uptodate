@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Benign prostatic hyperplasia</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> The symptoms experienced by a patient with BPH can often be identical to those experienced by a patient with later-stage prostate cancer.Typically, with BPH the prostate feels rubbery with no palpable nodules. Hard nodules suggest malignancy.",
+"<br><strong>Test:</strong> A positive prostate biopsy is the most sensitive and specific test to differentiate between prostate cancer and BPH.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Chronic prostatitis</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Chronic prostatitis manifests over an extended period of &gt;3 months to several years' duration with symptoms of urinary frequency, dysuria, male dyspareunia, and occasionally haematospermia. The latter must be differentiated from prostatic carcinoma.",
+"<br><strong>Test:</strong> Microscopic examination of the expressed prostatic secretions may reveal the presence of leukocytes indicative of inflammation. Serum PSA is typically mildly elevated in chronic prostatis. In cases where clinical suspicion is high for chronic prostatitis, it may be useful to treat the patient with a course of antibiotics and repeat the PSA to assess for response prior to recommending prostate biopsy to rule out prostate cancer.</p>",
+"</dd>",
+"</dl>"].join("\n");

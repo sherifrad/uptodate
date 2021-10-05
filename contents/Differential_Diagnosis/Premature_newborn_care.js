@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Small for gestational age (SGA)</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> SGA describes an infant who is below the 10th percentile for weight, length, or head circumference.Some SGA infants are constitutionally small without intrauterine growth restriction (IUGR) but others are associated with IUGR.Although an SGA infant may have a low birth weight, the infant is not necessarily premature and, if not, does not manifest disease or physical findings commonly associated with prematurity.",
+"<br><strong>Test:</strong> Physical assessment and the revised Ballard score aid in the diagnosis.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Intrauterine growth restriction (IUGR)</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> IUGR is a failure to reach the full growth potential and is a risk factor for preterm delivery.The IUGR infant must be examined carefully to identify potential causes for growth retardation in addition to recognition of manifestations related to prematurity. IUGR babies may be symmetrical or asymmetrical (with head-sparing).",
+"<br><strong>Test:</strong> Physical assessment and the revised Ballard score aid in the diagnosis.Symmetrical IUGR is associated with chromosomal anomalies such as trisomy 21, 18 and 13, and with fetal alcohol and intrauterine infections such as cytomegalovirus or other congenital infections.Asymmetrical IUGR where the head growth is spared is evident in the last trimester and is associated with maternal hypertension, malnutrition or other maternal debilitating conditions.</p>",
+"</dd>",
+"</dl>"].join("\n");

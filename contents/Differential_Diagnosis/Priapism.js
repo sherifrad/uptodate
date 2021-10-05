@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Peyronie's disease</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Penis shows variable degree of curvature on erection. Palpation may detect a fibrotic plaque on shaft of penis.",
+"<br><strong>Test:</strong> Ultrasound may show calcifications within penile plaque.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Penile implant</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> The permanent erection that may accompany some penile implants may mimic priapism (pseudopriapism). Clinical history is usually sufficient to make the diagnosis.",
+"<br><strong>Test:</strong> There are no distinguishing tests.</p>",
+"</dd>",
+"</dl>"].join("\n");
