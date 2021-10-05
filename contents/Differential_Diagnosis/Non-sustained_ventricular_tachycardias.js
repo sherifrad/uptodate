@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>SVT with aberrant conduction</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> None",
+"<br><strong>Test:</strong> ECG, electrophysiological study: failure to meet criteria for NSVT; absence of fusion capture beats; absence of AV dissociation.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Electrical artifact</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> None",
+"<br><strong>Test:</strong> ECG: evidence of underlying sinus rhythm discernable through electrical noise (motion artifact).</p>",
+"</dd>",
+"</dl>"].join("\n");

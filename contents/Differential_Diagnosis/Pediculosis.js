@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Seborrhoeic dermatitis</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Dandruff easily falls from the head with scratching, and often can be seen on the shoulder area of clothing.",
+"<br><strong>Test:</strong> Diagnosis can easily be confirmed using a hand lens or by microscopic examination. [29]</p>",
+"</dd>",
+"<dt><a href='#Section1'>Other objects in hair</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Hair casts, hairspray droplets, scabs, dirt, paint flecks, and even other insects, such as aphids that may get blown into the hair, may be mistaken for head lice or nits.Intense pruritus is usually absent.",
+"<br><strong>Test:</strong> Diagnosis can easily be confirmed using a hand lens or by microscopic examination. [29]</p>",
+"</dd>",
+"</dl>"].join("\n");

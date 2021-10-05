@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Idiopathic postprandial syndrome (pseudohypoglycaemia)</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Clinical history of hypoglycaemic symptoms after ingesting a meal.",
+"<br><strong>Test:</strong> Glucose level &gt;3.3 mmol/L (&gt;60 mg/dL) in presence of symptoms.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Insulin autoimmune hypoglycaemia</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Extremely rare condition that usually spontaneously resolves.",
+"<br><strong>Test:</strong> Can assay for insulin antibodies as well as antibodies to insulin receptors. [34]</p>",
+"</dd>",
+"</dl>"].join("\n");

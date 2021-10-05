@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Left atrial myxoma</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> This left atrial tumour may obstruct the mitral orifice and mimic the signs and symptoms of mitral stenosis.",
+"<br><strong>Test:</strong> Echocardiography clearly shows a mass lesion.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Unexplained atrial fibrillation</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> At rapid heart rates the signs of mitral stenosis may be difficult to discern.",
+"<br><strong>Test:</strong> Echocardiography excludes mitral stenosis.</p>",
+"</dd>",
+"</dl>"].join("\n");

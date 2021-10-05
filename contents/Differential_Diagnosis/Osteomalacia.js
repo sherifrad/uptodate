@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Osteoporosis</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Both osteoporosis and osteomalacia may present with bone fractures. Typically, osteoporosis is painless and insidious until a fracture develops. Characteristically, osteomalacia is a painful bone disorder at onset.Osteomalacia patients report a history of limited sunlight exposure, sunscreen use, malabsorption, anticonvulsant use, or renal failure. Osteoporosis typically occurs with advancing age.",
+"<br><strong>Test:</strong> Osteoporosis typically presents with normal serum calcium, phosphorus, alkaline phosphatase, vitamin D, and PTH levels. In contrast, osteomalacia is characterised by hypophosphataemia, hypocalcaemia, increased alkaline phosphatase levels, low levels of vitamin D metabolites, and secondary hyperparathyroidism.Urinary calcium levels may be normal in osteoporosis but are low in osteomalacia. Both conditions appear as low bone mass on radiological studies and DXA scan. However, specific radiological findings unique to osteomalacia include Looser pseudofractures.A bone biopsy is the best differentiating test. [36]On x-ray, the coarseness of the trabeculae in osteomalacia may differentiate the 2 diagnoses.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Paget's disease</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Most patients with Paget's disease are asymptomatic. In contrast, patients with osteomalacia have bony tenderness and pain.",
+"<br><strong>Test:</strong> Normal serum calcium and a markedly elevated serum alkaline phosphatase are seen in Paget's disease. On x-ray, gross deformities of bone may be seen, characteristic of Paget's disease, such as enlargement of the skull and bowing of the femur or tibia.</p>",
+"</dd>",
+"</dl>"].join("\n");
