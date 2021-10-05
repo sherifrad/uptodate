@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Sneddon's syndrome</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> First described in 1965, this is the presentation of both livedo reticularis with stroke and hypertension in the absence of a recognised collagen vascular disease or infection.",
+"<br><strong>Test:</strong> Antiphospholipid antibodies may be present but are not a diagnostic criterion for Sneddon's syndrome.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Inherited thrombophilia</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Presents with venous thrombosis (in particular, apparently spontaneous events) at an early age; FHx of VTE .",
+"<br><strong>Test:</strong> Reduced levels of protein C, free protein S level, and antithrombin III level; prothrombin gene mutation (G-20210-A).</p>",
+"</dd>",
+"</dl>"].join("\n");

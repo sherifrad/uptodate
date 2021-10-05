@@ -1,0 +1,7 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Anti-secretory drug-induced hypochlorhydria and hypergastrinaemia</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Although rare, proton-pump inhibitor-induced hypochlorhydria can interfere with the absorption of iron and cobalamin. [68]  [70]  [71]  There are reports of increased bone fractures in patients on long-term proton-pump inhibitors, possibly due to cobalamin, calcium, and/or vitamin D malabsorption. [10]  [11]  [12]  [98]Proton-pump inhibitors selectively inhibit parietal cell H+/K+ ATPase, the proton pump responsible for the final step in acid secretion, and thereby inhibit both basal and stimulated gastric acid secretion. [1]  [36]  Because their half-lives are about 1 hour and new pumps are continually being made, patients are not achlorhydric, and median 24-hour gastric pH is about 4.0 to 5.0. [34]  [35]  As a result of hypochlorhydria, gastrin levels are elevated in about 20% of patients, usually less than 2- to 4-fold. However, about 5% of patients may have gastrin levels exceeding 400 picograms/mL. [64]  [65]  [66]",
+"<br><strong>Test:</strong> The simplest way to differentiate anti-secretory drug-induced hypochlorhydria and/or hypergastrinaemia as well as nutrient malabsorption is to discontinue the drug and observe return to normal of serum gastrin, iron, cobalamin, and 25-hydroxyvitamin D.</p>",
+"</dd>",
+"</dl>"].join("\n");

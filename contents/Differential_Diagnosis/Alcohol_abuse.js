@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Other psychiatric disorders</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Symptoms of alcohol dependence (including those of intoxication/withdrawal) may be confused with symptoms of other psychiatric disorders. Furthermore, several psychiatric disorders (e.g., schizophrenia, bipolar disorder, PTSD) can be comorbid with alcohol abuse and dependence.Differentiating signs and symptoms depend on the type of psychiatric disorder present. Definitive diagnosis is often difficult. Observation over days to weeks to months may be necessary to establish underlying psychiatric diagnoses in people continuing to actively use alcohol.",
+"<br><strong>Test:</strong> DSM-IV-TR criteria for non-substance use psychiatric disorders. [1]</p>",
+"</dd>",
+"<dt><a href='#Section1'>Other substance use disorders (especially sedatives)</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Sedating substances or medications (e.g., benzodiazepines, barbiturates, opioids) may have significantly longer-lasting effects than alcohol.Use of such substances with alcohol may pose a significant risk for overdose complications (stupor, coma, respiratory depression).",
+"<br><strong>Test:</strong> DSM-IV-TR criteria for substance use disorders other than alcohol. [1]Urine and/or blood toxicologies indicating presence of other substances.</p>",
+"</dd>",
+"</dl>"].join("\n");

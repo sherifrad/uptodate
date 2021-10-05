@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Atrial fibrillation</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> none",
+"<br><strong>Test:</strong> ECG shows uncoordinated atrial activation with rapidly oscillating, fibrillatory waves that vary in amplitude, shape, and timing. [7]</p>",
+"</dd>",
+"<dt><a href='#Section1'>Atrial tachycardia</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> none",
+"<br><strong>Test:</strong> Generally, by ECG, atrial tachycardia has isoelectric intervals between the P waves in all leads. At very high atrial rates, it may be extremely difficult to distinguish the two. [7]</p>",
+"</dd>",
+"</dl>"].join("\n");
