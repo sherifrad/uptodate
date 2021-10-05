@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Obesity</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Usually lack facial plethora, unexplained bruising, proximal muscle weakness, violaceous striae, supraclavicular fullness, and osteoporotic fractures. [25]",
+"<br><strong>Test:</strong> Normal late-night salivary cortisol, dexamethasone suppression testing, or 24-hour urinary free cortisol.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Metabolic syndrome</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Usually lack facial plethora, unexplained bruising, proximal muscle weakness, violaceous striae, supraclavicular fullness, and osteoporotic fractures. [25]",
+"<br><strong>Test:</strong> Normal late-night salivary cortisol, dexamethasone suppression testing, or 24-hour urinary free cortisol.</p>",
+"</dd>",
+"</dl>"].join("\n");          

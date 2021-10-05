@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Haemoptysis</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Patients with haemoptysis may have other respiratory signs and symptoms, such as cough, dyspnoea, wheeze, abnormal breath sounds on chest auscultation.",
+"<br><strong>Test:</strong> Usually only an initial confusion and clinically apparent after a more thorough patient examination.Chest x-ray or CT may be abnormal in patients with haemoptysis. Some bleeding sources require bronchoscopy for identification (e.g., pulmonary blood vessel that cannot be seen on imaging).</p>",
+"</dd>",
+"<dt><a href='#Section1'>Haematemesis</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Patients with haematemesis more likely to have other GI signs and symptoms, such as abdominal pain, melaena, history of peptic ulcer disease.",
+"<br><strong>Test:</strong> Usually only an initial confusion and clinically apparent after a more thorough patient examination.Upper GI endoscopy helpful in detecting bleeding source.</p>",
+"</dd>",
+"</dl>"].join("\n");

@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Premature ejaculation</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Ejaculation that occurs sooner than desired, either before or shortly after penetration, causing distress to either one or both partners. [51]",
+"<br><strong>Test:</strong> There are no distinguishing tests.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Priapism</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> A pathological condition of a penile erection that persists beyond or is unrelated to sexual stimulation, considered a medical/surgical emergency. [52]Persistence of an erection beyond 3 hours is considered significant symptom.Can be associated with tissue ischaemia.",
+"<br><strong>Test:</strong> There are no distinguishing tests.</p>",
+"</dd>",
+"</dl>"].join("\n");

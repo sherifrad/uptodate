@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Disorder of sex development (DSD)</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Endocrine and urology referral should be made to rule out a DSD.",
+"<br><strong>Test:</strong> Karyotype and 17-hydroxyprogesterone level help distinguish between the different disorders.hCG stimulation test: no increase in testosterone, along with elevated basal levels of gonadotropins, signifies that the testes are absent.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Female with congenital adrenal hyperplasia</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Occasionally, a severely androgenised female with 21-hydroxylase (the most common) congenital adrenal hyperplasia may present with a phallic structure and presumed bilateral undescended testicles, and may have life-threatening metabolic disturbances.",
+"<br><strong>Test:</strong> Elevated serum17-hydroxyprogesterone and serum testosterone.</p>",
+"</dd>",
+"</dl>"].join("\n");
