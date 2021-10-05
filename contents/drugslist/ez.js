@@ -1,0 +1,1 @@
+drugsList_ez={'ezogabine': 'ezogabine', 'Ezfe': 'iron-polysaccharide,ezfe', 'EZChar': 'charcoal,ezchar', 'ezetimibe': 'ezetimibe'};

@@ -1,0 +1,1 @@
+drugsList_ak={'Akurza': 'salicylic-acid-topical,akurza', 'Akbeta': 'levobunolol-ophthalmic,ak-beta', 'Akineton': 'biperiden,akineton'};

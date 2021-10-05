@@ -1,0 +1,1 @@
+drugsList_eu={'Euthroid': 'liotrix', 'Euflexxa': 'sodium-hyaluronate,euflexxa', 'Euglucon': 'glyburide', 'Eulexin': 'flutamide,eulexin'};

@@ -1,0 +1,1 @@
+drugsList_ag={'Agenerase': 'amprenavir,agenerase', 'Agriflu': 'influenza-virus-vaccine-inactivated,agriflu', 'Aggrenox': 'aspirin-dipyridamole,aggrenox', 'Agrylin': 'anagrelide,agrylin', 'Aggrastat': 'tirofiban,aggrastat'};

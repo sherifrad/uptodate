@@ -1,0 +1,1 @@
+drugsList_ec={'Econopred': 'prednisolone-ophthalmic,econopred', 'Eculizumab': 'eculizumab', 'Econochlor': 'chloramphenicol-ophthalmic', 'Echinacea': 'echinacea', 'Ecotrin': 'aspirin,ecotrin'};

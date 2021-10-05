@@ -1,0 +1,1 @@
+drugsList_ev={'Evoxac': 'cevimeline,evoxac', 'Evamist': 'estradiol,evamist', 'Everolimus': 'everolimus', 'Evista': 'raloxifene,evista', 'Evoclin': 'clindamycin-topical,evoclin'};

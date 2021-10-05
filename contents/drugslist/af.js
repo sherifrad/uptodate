@@ -1,0 +1,1 @@
+drugsList_af={'Afinitor': 'everolimus,afinitor', 'Afrin': 'oxymetazoline-nasal,afrin', 'Aflaxen': 'naproxen,aflaxen', 'Afluria': 'influenza-virus-vaccine-inactivated,afluria'};

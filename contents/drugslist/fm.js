@@ -1,0 +1,1 @@
+drugsList_fm={'FML': 'fluorometholone-ophthalmic,fml'};

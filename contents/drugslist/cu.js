@@ -1,0 +1,1 @@
+drugsList_cu={'Cuvposa': 'glycopyrrolate,cuvposa', 'Cuprimine': 'penicillamine,cuprimine', 'Cubicin': 'daptomycin,cubicin', 'Cutivate': 'fluticasone-topical,cutivate'};

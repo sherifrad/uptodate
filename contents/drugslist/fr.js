@@ -1,0 +1,1 @@
+drugsList_fr={'Freezone': 'salicylic-acid-topical,freezone', 'Frenadol': 'acetaminophen-salicylamide,frenadol', 'Frova': 'frovatriptan,frova', 'Frovatriptan': 'frovatriptan', 'Fragmin': 'dalteparin,fragmin'};

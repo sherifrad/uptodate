@@ -1,0 +1,1 @@
+drugsList_ax={'Axid': 'nizatidine,axid', 'Axocet': 'acetaminophen-butalbital,axocet', 'Axiron': 'testosterone,axiron', 'Axsain': 'capsaicin-topical,axsain', 'Axert': 'almotriptan,axert'};

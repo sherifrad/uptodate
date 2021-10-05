@@ -1,0 +1,1 @@
+drugsList_ae={'aeroHist': 'chlorpheniramine-methscopolamine,aerohist', 'Aerospan': 'flunisolide,aerospan', 'Aerobid': 'flunisolide,aerobid'};

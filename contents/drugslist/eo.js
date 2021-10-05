@@ -1,0 +1,1 @@
+drugsList_eo={'Eovist': 'gadoxetate-disodium,eovist'};

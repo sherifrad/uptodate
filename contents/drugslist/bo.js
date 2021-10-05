@@ -1,0 +1,1 @@
+drugsList_bo={'Bondronat': 'ibandronate', 'Botox': 'onabotulinumtoxina,botox', 'Boniva': 'ibandronate,boniva', 'Bonine': 'meclizine,bonine', 'bortezomib': 'bortezomib', 'bosentan': 'bosentan', 'Boostrix': 'diphtheria-toxoid-pertussis-acellular-tetanus-toxoid,boostrix-tdap', 'Boceprevir': 'boceprevir', 'Bontril': 'phendimetrazine'};

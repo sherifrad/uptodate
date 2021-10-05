@@ -1,0 +1,1 @@
+drugsList_ed={'Edex': 'alprostadil,edex', 'Edluar': 'zolpidem,edluar', 'Edarbi': 'azilsartan-medoxomil,edarbi', 'Edecrin': 'ethacrynic-acid,edecrin', 'edrophonium': 'edrophonium', 'Edarbyclor': 'azilsartan-medoxomil-chlorthalidone,edarbyclor', 'Edurant': 'rilpivirine,edurant'};

@@ -1,0 +1,1 @@
+drugsList_aq={'Aqualax': 'docusate,aqualax', 'Aquamephyton': 'phytonadione,aquamephyton', 'Aquatensen': 'methyclothiazide,aquatensen'};
