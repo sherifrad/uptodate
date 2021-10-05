@@ -1,0 +1,1 @@
+drugsList_ip={'Iprivask': 'desirudin,iprivask', 'IPOL': 'poliovirus-vaccine-inactivated,ipol', 'iPlex': 'mecasermin-rinfabate,iplex', 'Ipratropium': 'ipratropium', 'Ipilimumab': 'ipilimumab'};

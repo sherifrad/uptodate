@@ -1,0 +1,1 @@
+drugsList_fu={'furosemide': 'furosemide', 'furazolidone': 'furazolidone', 'FUDR': 'floxuridine,fudr', 'Fumatinic': 'multivitamin-with-iron,fumatinic', 'Fungoid': 'miconazole-topical,fungoid', 'Furocot': 'furosemide', 'Fuzeon': 'enfuvirtide,fuzeon', 'Fungizone': 'amphotericin-b,fungizone', 'Fusilev': 'levoleucovorin-calcium,fusilev', 'Furadantin': 'nitrofurantoin,furadantin'};

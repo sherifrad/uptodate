@@ -1,0 +1,1 @@
+drugsList_ix={'Ixabepilone': 'ixabepilone', 'Ixiaro': 'japanese-encephalitis-virus-vaccine-sa14-14-2,ixiaro', 'Ixempra': 'ixabepilone,ixempra'};

@@ -1,0 +1,1 @@
+drugsList_ic={'Icatibant': 'icatibant', 'Icar': 'carbonyl-iron,icar', 'Icaps': 'multivitamin-with-iron,icaps'};

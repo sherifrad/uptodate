@@ -1,0 +1,1 @@
+drugsList_kr={'Kristalose': 'lactulose,kristalose', 'Krystexxa': 'pegloticase,krystexxa'};

@@ -1,0 +1,1 @@
+drugsList_ja={'Janumet': 'metformin-sitagliptin,janumet', 'Jakafi': 'ruxolitinib,jakafi', 'Jantoven': 'warfarin,jantoven', 'Jalyn': 'dutasteride-tamsulosin,jalyn', 'Januvia': 'sitagliptin,januvia'};

@@ -1,0 +1,1 @@
+drugsList_jo={'Jolessa': 'ethinyl-estradiol-levonorgestrel,jolessa', 'Jolivette': 'norethindrone,jolivette'};

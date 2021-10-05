@@ -1,0 +1,1 @@
+drugsList_gu={'Guanabenz': 'guanabenz', 'guanethidine': 'guanethidine', 'Guaivent': 'guaifenesin-phenylpropanolamine,guaivent', 'Guanidine': 'guanidine', 'guanadrel': 'guanadrel', 'guanfacine': 'guanfacine'};

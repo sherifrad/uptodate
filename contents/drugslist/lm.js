@@ -1,0 +1,1 @@
+drugsList_lm={'LMD': 'dextran-low-molecular-weight'};

@@ -1,0 +1,1 @@
+drugsList_om={'omalizumab': 'omalizumab', 'Omnaris': 'ciclesonide-nasal,omnaris', 'Omnipred': 'prednisolone-ophthalmic,omnipred', 'Omnicef': 'cefdinir,omnicef', 'Omniscan': 'gadodiamide,omniscan', 'Omeprazole': 'omeprazole', 'Omacor': 'omega-3-polyunsaturated-fatty-acids,omacor', 'Omnitrope': 'somatropin,omnitrope'};

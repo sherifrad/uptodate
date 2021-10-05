@@ -1,0 +1,1 @@
+drugsList_ol={'Oleptro': 'trazodone,oleptro', 'olopatadine': 'olopatadine-nasal', 'Olmesartan': 'olmesartan', 'Olsalazine': 'olsalazine', 'Olanzapine': 'olanzapine', 'Olux': 'clobetasol-topical,olux'};

@@ -1,0 +1,1 @@
+drugsList_gi={'Gilenya': 'fingolimod,gilenya', 'ginseng': 'ginseng', 'Gianvi': 'drospirenone-ethinyl-estradiol,gianvi', 'ginger': 'ginger', 'ginkgo': 'ginkgo'};

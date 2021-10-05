@@ -1,0 +1,1 @@
+drugsList_if={'Ifosfamide': 'ifosfamide', 'Ifex': 'ifosfamide,ifex'};

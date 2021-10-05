@@ -1,0 +1,1 @@
+drugsList_mu={'Mumpsvax': 'mumps-virus-vaccine,mumpsvax', 'Mucomyst': 'acetylcysteine,mucomyst', 'Mutamycin': 'mitomycin,mutamycin', 'Muse': 'alprostadil,muse', 'Multivitamins': 'multivitamin', 'Mustargen': 'mechlorethamine,mustargen', 'multivitamin': 'multivitamin', 'Multihance': 'gadobenate-dimeglumine,multihance', 'Multaq': 'dronedarone,multaq'}; 

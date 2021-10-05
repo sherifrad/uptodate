@@ -1,0 +1,1 @@
+drugsList_of={'Oforta': 'fludarabine,oforta', 'ofloxacin': 'ofloxacin', 'Ofirmev': 'acetaminophen,ofirmev', 'Ofatumumab': 'ofatumumab'};

@@ -1,0 +1,1 @@
+drugsList_ju={'Junel': 'ethinyl-estradiol-norethindrone', 'Juvisync': 'simvastatin-sitagliptin,juvisync'};

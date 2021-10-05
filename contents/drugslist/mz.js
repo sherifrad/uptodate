@@ -1,0 +1,1 @@
+drugsList_mz={'MZM': 'methazolamide,mzm'};

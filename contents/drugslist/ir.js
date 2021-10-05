@@ -1,0 +1,1 @@
+drugsList_ir={'Irofol': 'multivitamin-with-iron,irofol', 'Irinotecan': 'irinotecan', 'Iron': 'ferrous-sulfate', 'irbesartan': 'irbesartan', 'Ircon': 'ferrous-sulfate', 'Iressa': 'gefitinib,iressa'};

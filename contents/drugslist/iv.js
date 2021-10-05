@@ -1,0 +1,1 @@
+drugsList_iv={'Ivermectin': 'ivermectin', 'Iveegam': 'immune-globulin-intravenous', 'IvyStat': 'hydrocortisone-topical', 'Ivarest': 'calamine-diphenhydramine-topical,ivarest'};

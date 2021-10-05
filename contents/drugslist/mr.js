@@ -1,0 +1,1 @@
+drugsList_mr={'MRV': 'mixed-respiratory-vaccine,mrv'};

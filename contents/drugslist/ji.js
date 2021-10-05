@@ -1,0 +1,1 @@
+drugsList_ji={'Jinteli': 'ethinyl-estradiol-norethindrone,jinteli'};

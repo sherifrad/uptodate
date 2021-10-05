@@ -1,0 +1,1 @@
+drugsList_go={'Gordofilm': 'salicylic-acid-topical,gordofilm', 'Gonadorelin': 'gonadorelin', 'goldenseal': 'goldenseal', 'goserelin': 'goserelin', 'golimumab': 'golimumab'};

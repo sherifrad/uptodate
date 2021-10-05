@@ -1,0 +1,1 @@
+drugsList_og={'Ogen': 'estropipate,ogen', 'Ogestrel': 'ethinyl-estradiol-norgestrel,ogestrel'};

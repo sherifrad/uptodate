@@ -1,0 +1,1 @@
+drugsList_hu={'Humatrope': 'somatropin,humatrope', 'Humira': 'adalimumab,humira', 'Humalog': 'insulin-lispro,humalog', 'Humatin': 'paromomycin,humatin'};

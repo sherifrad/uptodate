@@ -1,0 +1,1 @@
+drugsList_gy={'Gynodiol': 'estradiol,gynodiol'};

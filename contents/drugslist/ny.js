@@ -1,0 +1,1 @@
+drugsList_ny={'Nydrazid': 'isoniazid,nydrazid', 'Nycoff': 'dextromethorphan', 'Nystatin': 'nystatin', 'Nytol': 'diphenhydramine,nytol', 'NyCair': 'acetaminophen-dextromethorphan-doxylamine-pseudoephedrine', 'Nyaderm': 'nystatin'};

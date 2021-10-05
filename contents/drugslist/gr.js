@@ -1,0 +1,1 @@
+drugsList_gr={'Griseofulvin': 'griseofulvin', 'Granisetron': 'granisetron', 'Gralise': 'gabapentin,gralise', 'Granisol': 'granisetron,granisol', 'Granulex': 'balsam-peru-castor-oil-trypsin-topical,granulex', 'grepafloxacin': 'grepafloxacin', 'Granulderm': 'balsam-peru-castor-oil-trypsin-topical,granulderm'};

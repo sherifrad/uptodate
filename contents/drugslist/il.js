@@ -1,0 +1,1 @@
+drugsList_il={'Ilosone': 'erythromycin,ilosone', 'Iloperidonesee': 'iloperidone', 'Ilaris': 'canakinumab,ilaris', 'iloprost': 'iloprost', 'iloperidone': 'iloperidone'};

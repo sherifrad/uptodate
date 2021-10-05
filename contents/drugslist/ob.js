@@ -1,0 +1,1 @@
+drugsList_ob={'Obezine': 'phendimetrazine,obezine', 'Obenix': 'phentermine,obenix'};

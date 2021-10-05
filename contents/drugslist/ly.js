@@ -1,0 +1,1 @@
+drugsList_ly={'Lysodren': 'mitotane,lysodren', 'Lybrel': 'ethinyl-estradiol-levonorgestrel,lybrel', 'Lysteda': 'tranexamic-acid,lysteda', 'Lyrica': 'pregabalin,lyrica', 'Lyderm': 'fluocinonide-topical', 'Lyphocin': 'vancomycin,lyphocin'};
