@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Periventricular nodular heterotopia (PNH)</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Skin, ophthalmological, and general examination is normal.There are no cutaneous features or other organ involvement. [21]  [22]Inheritance pattern is as an X-linked dominant or sporadic condition.",
+"<br><strong>Test:</strong> Affected people present with seizures, and neuroimaging discloses periventricular nodules consistent with heterotopia. These nodules do not have calcification.There may be additional brain dysgenesis distinct from TSC.Genetic testing for FLMN and HEX1 genes may yield mutations consistent with PNH. [21]  [22]</p>",
+"</dd>",
+"<dt><a href='#Section1'>Multiple endocrine neoplasia (MEN-1)</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Facial angiofibromas can be seen in about 80% of MEN-1 patients. [17]  Other hallmark dermatological and neurological clinical features of TSC are not identified.This is an autosomal-dominant disorder with a propensity for parathyroid and pancreatic islet cell tumours, among other features. [23]",
+"<br><strong>Test:</strong> Genetic mutations in the MEN-1 gene reside at chromosome 11q13. [17]</p>",
+"</dd>",
+"</dl>"].join("\n");

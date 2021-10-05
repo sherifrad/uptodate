@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Simple hypotension</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Hypotension alone may be entirely asymptomatic, has continuing absence of signs of hypoperfusion, and the patient remains well. With no changes over several hours, this excludes even mild or early shock.",
+"<br><strong>Test:</strong> ECG and routine laboratory panel fail to yield significant pathology after observation for some hours.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Syncope or pre-syncope</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Syncope or pre-syncope differ from shock by duration of hypoperfusion.Repeat BP after 5 to 10 minutes is back to normal levels.",
+"<br><strong>Test:</strong> ECG may be done, with no acute changes apparent.</p>",
+"</dd>",
+"</dl>"].join("\n");
