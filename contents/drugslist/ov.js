@@ -1,0 +1,1 @@
+drugsList_ov={'Ovcon': 'ethinyl-estradiol-norethindrone', 'Ovidrel': 'chorionic-gonadotropin-hcg,ovidrel'};

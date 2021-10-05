@@ -1,0 +1,1 @@
+drugsList_ru={'Rubex': 'doxorubicin', 'rufinamide': 'rufinamide', 'Ruxolitinib': 'ruxolitinib', 'Rutin': 'bioflavonoids,rutin'};

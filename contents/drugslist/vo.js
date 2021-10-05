@@ -1,0 +1,1 @@
+drugsList_vo={'Voxsuprine': 'isoxsuprine,voxsuprine', 'Volmax': 'albuterol,volmax', 'Vopac': 'acetaminophen-codeine,vopac', 'Vorinostat': 'vorinostat', 'Voriconazole': 'voriconazole', 'Voltaren': 'diclofenac,voltaren', 'Vofenal': 'diclofenac-ophthalmic', 'Votrient': 'pazopanib,votrient'};

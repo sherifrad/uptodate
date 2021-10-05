@@ -1,0 +1,1 @@
+drugsList_uv={'Uvadex': 'methoxsalen,uvadex'};

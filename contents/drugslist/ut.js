@@ -1,0 +1,1 @@
+drugsList_ut={'Utira': 'hyoscyamine-methenamine-methylene-blue-phenyl-salicylate,utira', 'Uta': 'hyoscyamine-methenamine-methylene-blue-phenyl-salicylate,uta', 'UTICAP': 'hyoscyamine-methenamine-methylene-blue-phenyl-salicylate,uticap'};

@@ -1,0 +1,1 @@
+drugsList_sc={'Scopace': 'scopolamine,scopace', 'Scandonest': 'levonordefrin-mepivacaine', 'Scalacort': 'hydrocortisone-topical,scalacort', 'Scalpcort': 'hydrocortisone-topical,scalp-cort', 'Scopolamine': 'scopolamine'};

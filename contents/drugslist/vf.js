@@ -1,0 +1,1 @@
+drugsList_vf={'Vfend': 'voriconazole,vfend'};

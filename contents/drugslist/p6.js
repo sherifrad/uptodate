@@ -1,0 +1,1 @@
+drugsList_p6={'P6E1': 'epinephrine-pilocarpine-ophthalmic,p6e1'};

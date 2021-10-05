@@ -1,0 +1,1 @@
+drugsList_ot={'Otrivin': 'xylometazoline-nasal,otrivin', 'Otimar': 'hydrocortisone-neomycin-polymyxin-b-otic,otimar', 'Otogesic': 'antipyrine-benzocaine-phenylephrine-otic,otogesic'};

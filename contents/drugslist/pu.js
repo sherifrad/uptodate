@@ -1,0 +1,1 @@
+drugsList_pu={'Pulmari': 'brompheniramine-carbetapentane-phenylephrine,pulmari', 'Purelax': 'polyethylene-glycol-3350,purelax', 'Pulmozyme': 'dornase-alfa,pulmozyme', 'Pulmicort': 'budesonide,pulmicort-turbuhaler', 'Purinethol': 'mercaptopurine,purinethol'};

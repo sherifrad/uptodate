@@ -1,0 +1,1 @@
+drugsList_tn={'TNKase': 'tenecteplase,tnkase'};

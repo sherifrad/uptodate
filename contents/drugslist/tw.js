@@ -1,0 +1,1 @@
+drugsList_tw={'Twinject': 'epinephrine,twinject', 'Twilite': 'diphenhydramine,twilite', 'Twinrix': 'hepatitis-a-adult-vaccine-hepatitis-b-adult-vaccine,twinrix', 'Twynsta': 'amlodipine-telmisartan,twynsta'};

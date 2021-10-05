@@ -1,0 +1,1 @@
+drugsList_ss={'SSD': 'silver-sulfadiazine-topical,ssd', 'SSKI': 'potassium-iodide,sski'};

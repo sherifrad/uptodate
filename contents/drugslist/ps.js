@@ -1,0 +1,1 @@
+drugsList_ps={'psyllium': 'psyllium', 'Pseudacarb': 'carbetapentane-pseudoephedrine,pseudacarb', 'pseudoephedrine': 'pseudoephedrine', 'Pseudovent': 'guaifenesin-pseudoephedrine,pseudovent', 'Pseudatex': 'guaifenesin-pseudoephedrine,pseudatex', 'psorcon': 'diflorasone-topical,psorcon'};

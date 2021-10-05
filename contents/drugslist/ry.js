@@ -1,0 +1,1 @@
+drugsList_ry={'Ryneze': 'chlorpheniramine-methscopolamine,ryneze', 'Rythmol': 'propafenone,rythmol', 'Rynatuss': 'carbetapentane-chlorpheniramine-ephedrine-phenylephrine,rynatuss', 'Ryzolt': 'tramadol,ryzolt', 'Rynatan': 'chlorpheniramine-phenylephrine,rynatan'};
