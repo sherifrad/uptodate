@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Telangiectasias</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Also known as spider veins. These are small veins that generally do not cause any symptoms but are mainly a cosmetic concern.",
+"<br><strong>Test:</strong> Veins are smaller in size (&lt;1 mm). No evidence of reflux on duplex examination.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Reticular veins</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Permanently dilated intradermal veins. May be tortuous. Usually asymptomatic.",
+"<br><strong>Test:</strong> Veins range between 1 mm and 3 mm in diameter. No evidence of reflux on duplex examination.</p>",
+"</dd>",
+"</dl>"].join("\n");

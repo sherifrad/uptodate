@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Cervical elongation</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Physical examination is essential for differentiation.Women with pelvic organ prolapse (POP) demonstrate greater descending of the cervix and the vaginal wall when straining.",
+"<br><strong>Test:</strong> Vaginal speculum and bimanual examination are the most reliable tests for differentiating between POP and cervical elongation.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Vaginal cyst</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Often asymptomatic. The patient may report a soft lump in the vaginal wall or protrusion of a lump from the vagina. Superficial dyspareunia or difficulty inserting tampons may be experienced.",
+"<br><strong>Test:</strong> Diagnosis is usually clinical. However, vaginal ultrasound is useful to identify the content of the cyst and its topographical relation with adjacent anatomical structures.</p>",
+"</dd>",
+"</dl>"].join("\n");

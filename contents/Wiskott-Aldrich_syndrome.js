@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Idiopathic thrombocytopenia (ITP)</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> Unlike WAS, ITP is not present from birth and is not familial. Clinical features can be very similar, as eczema is frequent in children and not all WAS patients have a significant infectious history. The existence of other affected family members suggests WAS.",
+"<br><strong>Test:</strong> Platelet size below normal range for WAS.Evidence of autoimmune basis for thrombocytopenia is not a discriminator, as this can be present in WAS as well.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Autoimmune lymphoproliferative syndrome (ALPS)</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> ALPS may present with autoimmune thrombocytopenia. ALPS is usually associated with a history, or presence, of generalised lymphadenopathy. Lymph node enlargement in ALPS is generally much more striking and greater than that seen in WAS.",
+"<br><strong>Test:</strong> Platelet size below normal range for WAS.Double negative T-cells are raised in ALPS and normal in WAS. These double negative cells are TCR alpha-beta+CD3+CD4-CD8- and assays are available only at specialist centres.</p>",
+"</dd>",
+"</dl>"].join("\n");
