@@ -1,0 +1,1 @@
+var index={"f508_mutation": [25222, "F508_mutation", 2]};
