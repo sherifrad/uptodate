@@ -1,0 +1,163 @@
+<html>
+<head>
+<script type="text/javascript" src="../js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="../js/ajax.js"></script>
+<link rel="stylesheet" type="text/css" media="screen, handheld" href="../css/mobiuptodate.css">
+<link rel="stylesheet" type="text/css" media="screen, handheld" href="../css/UTD_gx_gen.css">          
+<script type="text/javascript">
+searchResultsLoaded=false;
+interactionsLoaded=false;
+interactions={};
+listcounter=0;
+function listLoaded() {
+    listcounter+=1
+    if (listcounter==drugs.length+1) {
+        loadInterList();
+        loadInteractions();
+        loadSearchResults();
+    }
+}
+
+function loadDrugsListScripts() {
+    if (query) loadScript('./drugslist/'+(query[0]+query[1]).toLowerCase()+'.js', listLoaded);
+    else listLoaded();
+    for (var i=0; i<drugs.length; i++) {
+        loadScript('./drugslist/'+(drugs[i][0]+drugs[i][1]).toLowerCase()+'.js', listLoaded);
+    }
+}
+function urlMaker(query, drugs, exception) {
+    var arr=[];
+    for (var i=0; i<drugs.length; i++) {
+        if (exception!=drugs[i]) arr.push(drugs[i]);
+    }
+    return 'interaction.htm?query='+query+'&'+'drugs='+arr.join('|');
+}
+function GET() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+query=GET()['query'];
+drugs=GET()['drugs'];
+if (drugs) drugs=drugs.replace(/\%20/g, ' ');
+else drugs='';
+if (drugs=='') drugs=[];
+else drugs=drugs.split('|');
+
+function endAdding() {
+    var keys=[];
+    for (var k in interactions) keys.push(k);
+    var levels=['', 'minor', 'moderate', 'major'];
+    var s='';
+    for (var i=0; i<keys.length; i++) {
+        var k1=keys[i];
+        var w1=interactions[keys[i]][0];
+        for (var j=i+1; j<keys.length; j++) {
+            var k2=keys[j];
+            var w2=keyMap[interactions[keys[j]][0]];
+            var level=interactions[k1][1][w2[0].toLowerCase()];
+            if (level) level=parseInt(level[w2.toLowerCase()]);
+            if (level) s+='<img src="../images/interaction-'+level+'.myextp"></img> '+keyMap[w1]+' <-> '+w2+' <span class="inter-'+level+'">('+levels[level]+')</span><br>';
+        }
+    }
+    var d=document.getElementById('interactions');
+    if (s) d.innerHTML=s+'<p><div style="font-size: 11px;">Interactions summary will be added in next version of MobiUpToDate.</div>';
+    else if (keys.length==1) d.innerHTML="Please add another drug!";
+    else d.innerHTML="No interaction found! However, this does not necessarily mean no interactions exist. ALWAYS consult with your doctor or pharmacist.";
+    interactionsLoaded=true;
+    if (searchResultsLoaded && interactionsLoaded) curtain.parentNode.removeChild( curtain );
+}
+counter=0;
+function mapAdder(drug) {
+    counter+=1
+    if (counter==drugs.length) {
+        try {
+            endAdding();
+        }
+        catch (err) {
+            alert(err+err.message+'err');
+        }
+    }
+}
+function loadInterList() {
+    var s='';
+    for (var i=0; i<drugs.length; i++) {
+        s+=drugs[i]+'<a style="font-size: 12px;" href="'+urlMaker(query, drugs, drugs[i])+'"> (remove)</a>, ';
+    }
+    var d=document.getElementById('interList');
+    if (s) d.innerHTML='Interactions of '+s.slice(0, s.length-2);
+    else d.innerHTML='Drug interactions';
+}
+keyMap={}
+function loadInteractions() {
+    if (drugs.length==0 && !query) document.getElementById('interactions').innerHTML='Please search and add drugs!';
+    else if (drugs.length==0 && query!='') document.getElementById('interactions').innerHTML='Please add drugs!';
+    for (var i=0; i<drugs.length; i++) {
+        var drug=drugs[i];
+        var f=eval('drugsList_'+(drugs[i][0]+drugs[i][1]).toLowerCase())[drugs[i]];
+        if (keyMap[f]!=undefined) {
+            counter+=1;
+            continue;
+        }
+        keyMap[f]=drugs[i];
+        loadScript('./interactions/'+f+'.js', mapAdder);
+    }
+    if (drugs.length==0) {
+        interactionsLoaded=true;
+        if (searchResultsLoaded && interactionsLoaded) curtain.parentNode.removeChild( curtain );
+    }
+}
+
+function loadSearchResults() {
+    var d=document.getElementById('searchResults');
+    if (!query) {
+        d.innerHTML+='No result!';
+        searchResultsLoaded=true;
+        if (searchResultsLoaded && interactionsLoaded) curtain.parentNode.removeChild( curtain );
+        return;
+    };
+    var o=eval('drugsList_'+(query[0]+query[1]).toLowerCase());
+    var arr=[];
+    for (var k in o) arr.push(k);
+    var res=findSimilar(query, arr, 30);
+    var s='';
+    for (var i=0; i<res.length; i++) {
+        s+='<li style="background-image: none;padding-left: 0px;"><a href="'+urlMaker('', drugs.concat([res[i]]))+'">+ '+res[i]+'</a></li>';
+    }
+    if (s) d.innerHTML+='<ul>'+s+'</ul>';
+    else d.innerHTML+='No result!';
+    searchResultsLoaded=true;
+    if (searchResultsLoaded && interactionsLoaded) curtain.parentNode.removeChild( curtain );
+
+}
+
+</script>
+
+
+    <title>Interactions</title>
+</head>
+<body onload="loadDrugsListScripts();">
+    <div class="menubar">
+        <table>
+            <tr>
+                <td><a href="menu.htm" class="button green"><img src="../images/home.myextp"></img></a></td>
+                <td><a href="interaction.htm" class="button green"><img src="../images/reset.myextp"></img></a></td>
+                <td style="width:100%;"><input id="search" class="search-input" onkeypress="if (event.keyCode==13) window.location=urlMaker(document.getElementById('search').value, drugs);"/></td>
+                <td><img src="../images/search.myextp" class="button green" onclick="window.location=urlMaker(document.getElementById('search').value, drugs);"></img></td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript">
+		var curtain = document.body.appendChild( document.createElement('div') );
+        curtain.id = "curtain";
+        curtain.onkeypress = curtain.onclick = function(){ return false; }
+    </script> 
+
+    <div id="interList" class="mytitle"></div>
+    <div id="interactions"></div>
+    <div class="mytitle">Search results</div>
+    <div id="searchResults"></div>
+</body>
+</html>

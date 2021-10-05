@@ -1,0 +1,152 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript" src="../js/ajax.js"></script>
+<script type="text/javascript">
+    function GET() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+    mpattern=GET()['search'];
+    menu=GET()['menu'];
+    if (menu==undefined) menu=0;
+    pattern=mpattern.toLowerCase();
+    pattern=pattern.replace(/\+/g, ' ');
+</script>
+<script type="text/javascript">
+    function loadMenu() {
+        var link;
+        for (var i=0; i<4; i++) {
+            link=document.getElementById('sg'+i);
+            link.href='search.htm?search='+mpattern+'&menu='+i;
+            if (i==parseInt(menu)) link.className="g-button checked";
+            else link.className="g-button";
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    if (pattern!=undefined) document.write('<title>'+pattern+'</title>');
+    else document.write('<title>Search</title>')
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" media="screen, handheld" href="../css/mobiuptodate.css">
+<link rel="stylesheet" type="text/css" media="screen, handheld" href="../css/g-button.css">
+<script type="text/javascript" src="../js/ajax.js"></script> 
+</head>
+<body onload="loadMenu();">
+<div class="menubar">
+    <table>
+        <tr>
+            <td><a href="menu.htm" class="button green"><img src="../images/home.myextp"></img></a></td>
+            <td style="width:100%;"><input id="search" class="search-input" onkeypress="if (event.keyCode==13) searchPage();"/></td>
+            <td><img src="../images/search.myextp" class="button green" onclick="searchPage();"></img></td>
+        </tr>
+    </table>
+</div>
+<div align="center" style="margin: 5 0px;">
+<div class="g-button-group toggle-buttons">
+    <a id="sg0" href="#" class="g-button">All</a>
+    <a id="sg1" href="#" class="g-button">Adult</a>
+    <a id="sg2" href="#" class="g-button">Pediatric</a>
+    <a id="sg3" href="#" class="g-button">Drug</a>
+</div>
+</div>
+<div>
+<script type="text/javascript">
+    var curtain = document.body.appendChild( document.createElement('div') );
+    curtain.id = "curtain";
+    curtain.onkeypress = curtain.onclick = function(){ return false; }
+</script> 
+<h1 id="mytitle">
+<strong>Search Results</strong> 
+<script type="text/javascript">
+    if (pattern!=undefined) document.write('for <strong>&quot;'+pattern+'&quot;</strong>');
+</script>
+</h1>
+<div id="searchResults"> 
+
+    <script type="text/javascript">
+var d=document.getElementById("searchResults")
+        var write=function(st){
+            d.innerHTML+=st;
+        }
+        var handler=function(){
+            var imenu=parseInt(menu);
+            var ref=index[pattern.replace(/ /g, '_')];
+            if (ref && ref[2]<=3 && imenu==3 && ref[2]!=imenu) ref=undefined;
+            if (ref==undefined) {
+                arr=[];
+                for (var a in index) {
+                    if (index[a][2]<=2 && imenu<=2) arr.push(index[a][1]);
+                    else if (index[a][2]==imenu) arr.push(index[a][1]);
+                }
+                ref=[findSimilar(pattern, arr, 6)];
+            }
+            if (typeof(ref[0])=="number") {
+				
+                loadScript('./index/'+Math.floor(ref[0]/128)+'.js', function(){
+                    var menuLi=[imenu, 0, 1, 2, 3];
+                    var l=[];
+                    var suggests=[];
+                    for (var i=0; i<menuLi.length; i++) {
+                        imenu=menuLi[i];
+                        if (eval('window.res'+ref[0]+'_'+imenu)) {
+                            l=eval('res'+ref[0]+'_'+imenu);
+                            suggests=eval('suggest'+ref[0]+'_'+imenu);
+                            break;
+                        }
+                    }
+					
+                    var s='<ul>';
+                    for (var i=0; i<l.length; i++){
+                        var d1=Math.floor(l[i][1]/1024);
+                        var d2=Math.floor((l[i][1]%1024)/16);
+                        s=s+'<li><a href="mobipreview.htm?'+d1+'/'+d2+'/'+l[i][1]+'" class="searchResult">'+l[i][0]+'</a></li>';
+                    }
+                    write(s+'</ul>');
+					
+                    if (suggests.length==0) {
+                        arr=[];
+                        for (var a in index) {
+                            arr.push(index[a][1]);
+                        }
+						
+                        ref=[findSimilar(pattern, arr, 5)];
+                    } else {
+                        ref=[suggests];
+                    }
+					
+                    var s='<h5>You can search for</h5><ul style="display: inline; list-style: none;">';
+                    for (var i=0; i<ref[0].length; i++) {
+                        s=s+'<li style="float: left; width: auto;"><a href="./search.htm?search='+ref[0][i].replace(/ /g, '+')+'&menu='+imenu+'" class="searchResult">'+ref[0][i].replace(/_/g, ' ')+'</a></li>';
+                    }
+					
+                    write(s+'</ul><br>');
+                    curtain.parentNode.removeChild( curtain );
+                });
+                
+                
+            } else if (typeof(ref[0])=="object"){
+				
+                var s='<h5>Do you mean?</h5><ul style="display: inline; list-style: none;">';
+                for (var i=0; i<ref[0].length; i++) {
+                    s=s+'<li style="float: left; width: auto;"><a href="./search.htm?search='+ref[0][i].replace(/_/g, '+').replace(/ /g, '+')+'&menu='+menu+'" class="searchResult">'+ref[0][i].replace(/_/g, ' ')+'</a></li>';
+                }
+                write(s+'</ul><img width=0 height=0></img><p><table></table><h5>'+ref[0][0].replace(/_/g, ' ')+'</h5>');
+                pattern=ref[0][0].toLowerCase().replace(/_/g, ' ');
+                loadScript('./ref/'+pattern.slice(0, 2)+'.js', handler);
+            }
+        }
+		
+        loadScript('./ref/'+pattern.slice(0, 2)+'.js', handler);
+    </script>		
+</div> 
+</div>
+</body> 
+</html>
