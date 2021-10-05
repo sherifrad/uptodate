@@ -1,0 +1,12 @@
+content=["<dl>",
+"<dt><a href='#Section0'>Sexual aversion</a></dt>",
+"<dd id='Section0'>",
+"<p><strong>Sign & Symptoms:</strong> The thought of sexual activity as well as any sexual experience is highly distressing and the person reacts with phobic anxiety.",
+"<br><strong>Test:</strong> There is no test available to differentiate sexual aversion from sexual desire/interest disorder. Rather, a careful clinical assessment confirming phobic-like anxiety and extreme avoidance of any sexual stimuli would be characteristic of sexual aversion and not of sexual desire/interest disorder.</p>",
+"</dd>",
+"<dt><a href='#Section1'>Marital discord</a></dt>",
+"<dd id='Section1'>",
+"<p><strong>Sign & Symptoms:</strong> Lack of response and desire is logical and normal when there is insufficient emotional closeness.Response alone or to erotica is normal unless depression is comorbid.",
+"<br><strong>Test:</strong> Marital discord can be the main aetiology of a woman's sexual dysfunction. Only after addressing the discord can any remaining sexual dysfunction be confirmed.Self-report questionnaires (e.g., the Dyadic Adjustment Scale) may provide a cursory overview of the degree of marital dissatisfaction.</p>",
+"</dd>",
+"</dl>"].join("\n");
