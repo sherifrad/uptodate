@@ -53,7 +53,7 @@ td, th {
 #printHeader {
     height: 5px;
   width: 5px;
-    visibility: visible;
+    visibility: hidden;
 }
 #topicOutline {
     font-size: 84%;
