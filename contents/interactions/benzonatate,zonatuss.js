@@ -1,0 +1,1 @@
+interactions["benzonatate,zonatuss"]=["benzonatate,zonatuss", {"z": {"zanaflex": "2"}, "t": {"tizanidine": "2"}}];

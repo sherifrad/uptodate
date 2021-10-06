@@ -1,0 +1,2 @@
+interactions["azelaic-acid-topical,finacea"]=["azelaic-acid-topical,finacea", {"a": {"accutane": "2",
+ "amnesteem": "2"}, "i": {"isotretinoin": "2"}, "c": {"claravis": "2"}, "m": {"myorisan": "2"}, "s": {"sotret": "2"}}];
