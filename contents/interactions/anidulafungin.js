@@ -1,0 +1,1 @@
+interactions["anidulafungin"]=["anidulafungin", {"c": {"cyclosporine": "1"}, "s": {"sandimmune": "1"}, "g": {"gengraf": "1"}, "n": {"neoral": "1"}}];
