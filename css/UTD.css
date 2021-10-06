@@ -51,8 +51,7 @@ td, th {
     margin: 0;
 }
 #printHeader {
-    height: 5px;
-  width: 5px;
+    height: 1px;
     visibility: hidden;
 }
 #topicOutline {
