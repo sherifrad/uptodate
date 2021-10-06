@@ -377,7 +377,7 @@ td, th {
     top: 52px;
     left: 0px;
     bottom: 0px;
-    width: 264px;
+    width: 0%;
     overflow: auto;
     background-color: #EAEAEA;
     margin: 0;
@@ -387,7 +387,7 @@ td, th {
 #rightPanel {
     position: fixed;
     top: 52px;
-    left: 264px;
+    left: 0%;
     right: 0px;
     overflow: auto;
     margin: 0;
