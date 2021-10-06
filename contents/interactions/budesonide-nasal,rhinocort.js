@@ -1,0 +1,1 @@
+interactions["budesonide-nasal,rhinocort"]=["budesonide-nasal,rhinocort", {"i": {"incivek": "2"}, "b": {"boceprevir": "2"}, "t": {"telaprevir": "2"}, "v": {"victrelis": "2"}}];
