@@ -320,7 +320,7 @@ td, th {
 }
 .search-input {
     height: 90%;
-    width: 100%;
+    width: 40%;
     padding-left: 15px;
     font: 17px/100% Arial, Helvetica, sans-serif;
     border:1px solid #ccc;
@@ -445,6 +445,7 @@ td, th {
     border-radius:20px;-o-border-radius:20px;-moz-border-radius:20px;-webkit-border-radius:20px;-khtml-border-radius:20px;
     padding: 5px;
     margin: 5px;
+	width:100%;
 }
 .inter-1 {
     font-size: 11px;
@@ -488,7 +489,8 @@ td, th {
     display: none;
 }
 #pageLeftNav {
-    display: none;
+    display: none
+	    width:0%;
 }
 #topPanel{
     display: none;
