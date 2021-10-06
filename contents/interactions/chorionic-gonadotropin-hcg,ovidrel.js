@@ -1,0 +1,2 @@
+interactions["chorionic-gonadotropin-hcg,ovidrel"]=["chorionic-gonadotropin-hcg,ovidrel", {"a": {"antagon": "2"}, "g": {"ganirelix": "2"}, "f": {"follicle stimulating hormone/ganirelix": "2",
+ "follistim/antagon": "2"}}];
