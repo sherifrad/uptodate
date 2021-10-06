@@ -336,7 +336,7 @@ td, th {
 }
 .main-mobile-search-input {
     width: 150px;
-    height: 40px;
+    height: 100px;
     padding-left: 15px;
     font: 17px/100% Arial, Helvetica, sans-serif;
     border:1px solid #ccc;
