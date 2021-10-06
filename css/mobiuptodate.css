@@ -320,7 +320,7 @@ td, th {
 }
 .search-input {
     height: 90%;
-    width: 40%;
+    width: 100%;
     padding-left: 15px;
     font: 17px/100% Arial, Helvetica, sans-serif;
     border:1px solid #ccc;
@@ -336,7 +336,7 @@ td, th {
 }
 .main-mobile-search-input {
     width: 150px;
-    height: 100px;
+    height: 40px;
     padding-left: 15px;
     font: 17px/100% Arial, Helvetica, sans-serif;
     border:1px solid #ccc;
@@ -377,7 +377,7 @@ td, th {
     top: 52px;
     left: 0px;
     bottom: 0px;
-    width: 0%;
+    width: 264px;
     overflow: auto;
     background-color: #EAEAEA;
     margin: 0;
@@ -387,7 +387,7 @@ td, th {
 #rightPanel {
     position: fixed;
     top: 52px;
-    left: 0%;
+    left: 264px;
     right: 0px;
     overflow: auto;
     margin: 0;
@@ -445,7 +445,6 @@ td, th {
     border-radius:20px;-o-border-radius:20px;-moz-border-radius:20px;-webkit-border-radius:20px;-khtml-border-radius:20px;
     padding: 5px;
     margin: 5px;
-	width:100%;
 }
 .inter-1 {
     font-size: 11px;
@@ -489,8 +488,7 @@ td, th {
     display: none;
 }
 #pageLeftNav {
-    display: none
-	    width:0%;
+    display: none;
 }
 #topPanel{
     display: none;
