@@ -1,0 +1,13 @@
+interactions["alprostadil"]=["alprostadil", {"a": {"adcirca": "1",
+ "apomorphine": "2",
+ "apokyn": "2",
+ "apo-go pen": "2",
+ "apo-go": "2"}, "c": {"cialis": "1"}, "g": {"garlic oil": "1",
+ "garlic": "1"}, "i": {"iloprost": "2"}, "h": {"hair regrowth treatment for women": "2"}, "k": {"kuvan": "2"}, "m": {"minoxidil topical": "2"}, "l": {"licorice": "2"}, "n": {"nefazodone": "2"}, "s": {"sapropterin": "2",
+ "serzone": "2"}, "r": {"rogaine extra strength": "2",
+ "ronoxidil": "2",
+ "rogaine women's": "2",
+ "rogaine men's extra strength": "2",
+ "rogaine": "2"}, "u": {"uprima": "2"}, "t": {"tadalafil": "1"}, "v": {"visudyne": "2",
+ "ventavis": "2",
+ "verteporfin": "2"}}];
