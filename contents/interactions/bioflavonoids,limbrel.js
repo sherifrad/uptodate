@@ -1,0 +1,1 @@
+interactions["bioflavonoids,limbrel"]=["bioflavonoids,limbrel", {"c": {"coumadin": "2"}, "j": {"jantoven": "2"}, "w": {"warfarin": "2"}}];

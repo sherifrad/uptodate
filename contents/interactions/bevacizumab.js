@@ -1,0 +1,12 @@
+interactions["bevacizumab"]=["bevacizumab", {"d": {"deferiprone": "3"}, "f": {"filgrastim": "2",
+ "ferriprox": "3"}, "h": {"hycamtin": "2"}, "k": {"kepivance": "2"}, "m": {"metastron": "2"}, "l": {"leukine": "2"}, "n": {"neulasta": "2",
+ "neupogen": "2"}, "q": {"quadramet": "3"}, "p": {"pegfilgrastim": "2",
+ "palifermin": "2",
+ "panitumumab": "3"}, "s": {"strontium-89 chloride": "2",
+ "sutent": "3",
+ "samarium sm 153 lexidronam": "3",
+ "sodium phosphate p32": "2",
+ "sunitinib": "3",
+ "sargramostim": "2"}, "t": {"thalomid": "3",
+ "topotecan": "2",
+ "thalidomide": "3"}, "v": {"vectibix": "3"}}];
