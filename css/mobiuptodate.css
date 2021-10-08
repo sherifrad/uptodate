@@ -335,6 +335,7 @@ td, th {
     border-radius:10px;-o-border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;-khtml-border-radius:10px;
 }
 .main-mobile-search-input {
+    autocomplete: true;
     width: 150px;
     height: 40px;
     padding-left: 15px;
