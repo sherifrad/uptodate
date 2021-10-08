@@ -1,5 +1,14 @@
 <html>
 <head>
+
+<script type="text/javascript">
+           var url = document.getElementById('mysexybody').src;
+           var printwindow = window.open('', '', 'fullscreen=yes');
+           printwindow.document.write('<iframe width="100%" height="100%" onload="window.print()" src='+url+'></iframe>');
+
+</script>
+
+
 <script language="javascript" type="text/javascript" src="../js/ajax.js"></script>
 <script type="text/javascript">
     function GET() {
@@ -148,8 +157,5 @@ var d=document.getElementById("searchResults")
     </script>		
 </div> 
 </div>
-<form>
-         <input type = "button" value = "Print" onclick = "window.print()" />
-      </form>
 </body> 
 </html>
